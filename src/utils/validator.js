@@ -1,0 +1,1 @@
+export const isISBN = (str) => /^[0-9]{13}$/.test(str)

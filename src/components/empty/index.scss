@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins/index.scss";
+
+.my-empty {
+  box-sizing: border-box;
+  padding: $spacing-v-lg $spacing-h-lg;
+  background: $color-white;
+  @include absolute-center();
+
+  &-title {
+    font-size: $font-size-lg;
+    color: $color-text-base;
+  }
+
+  &-description {
+    font-size: $font-size-sm;
+    color: $color-text-placeholder;
+  }
+
+  &-actions {
+    display: flex;
+  }
+}
